@@ -1,0 +1,57 @@
+
+  
+  table {
+    width: 99%;
+    margin: 3rem 2rem 2rem 2rem;
+    background-color: rgba(50, 100, 100, 0.7); 
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  td {
+    color: white;
+    height: 2rem;
+    font-size: 20px;
+    padding: 1rem 0 1rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #666;
+  }
+  
+  th {
+    font-size: 20px;
+    height: 3.5rem;
+    background-color: rgba(0, 30, 30, 0.5);
+    color: white;
+    font-weight: bold;
+  }
+  
+  .editBtn {
+    background-color: #8f8;
+    width: 5rem;
+    height: 2.5rem;
+    color: black;
+    font-size: 20px;
+    border: 1.5px solid #225;
+    border-radius: 5px;
+  }
+  
+  .editBtn:hover {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+  }
+  
+  .deleteBtn{
+    background-color: #f88;
+    width: 5rem;
+    height: 2.5rem;
+    color: black;
+    font-size: 20px;
+    border: 1.5px solid #225;
+    border-radius: 5px;
+  }
+  .deleteBtn:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+  }
