@@ -11,6 +11,7 @@ import { SearchresultComponent } from './core/components/searchresult/searchresu
 import { CheckoutDetailsComponent } from './modules/product/components/checkout/checkout.details.component';
 import { CheckoutEditComponent } from './modules/product/components/checkout/checkout.edit.component';
 import { AdministrationComponent } from './administration/administration.component';
+import { EdituserComponent } from './edituser/edituser.component';
 
 const routes: Routes = [
   {
@@ -42,6 +43,10 @@ const routes: Routes = [
   {
     path:'administration',
     component: AdministrationComponent
+  },
+  {
+    path:'edituser',
+    component: EdituserComponent
   },
 
 

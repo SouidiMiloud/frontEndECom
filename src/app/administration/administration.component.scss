@@ -55,3 +55,19 @@
     color: black;
     background-color: white;
   }
+
+  .addUser{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .addUserBtn{
+    background-color: #8f8;
+    width: 10rem;
+    height: 2.5rem;
+    color: black;
+    font-size: 20px;
+    border: 1.5px solid #225;
+    border-radius: 5px;
+  }

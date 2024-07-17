@@ -18,6 +18,7 @@ import { SearchComponent } from './core/layout/components/header/search/search.c
 import { AuthinterceptorService } from './shared/services/auth/authinterceptor.service';
 import { SharedModule } from './shared/shared.module';
 import { AdministrationComponent } from './administration/administration.component';
+import { EdituserComponent } from './edituser/edituser.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,6 +34,7 @@ import { AdministrationComponent } from './administration/administration.compone
     SearchresultComponent,
     SearchComponent,
     AdministrationComponent,
+    EdituserComponent,
     
   ],
   imports: [

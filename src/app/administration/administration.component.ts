@@ -30,7 +30,7 @@ export class AdministrationComponent implements OnInit {
   }
 
   editUser(email: string): void {
-    this.router.navigate(['/edit']);
+    this.router.navigate(['/edituser'], { queryParams: { email: email } });
   }
 
   deleteUser(email: string): void{
